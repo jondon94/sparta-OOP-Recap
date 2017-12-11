@@ -23,7 +23,7 @@ module Flying_Machines
       p 'Helicopters have spinning wings(propellers that lift it off the ground)'
     end
     def self.rudder
-      p 'Most helicopters have counter propeller at their back end, these are there to stop the body from spinningout uncontrollably'
+      p 'Most helicopters have counter propeller at their back end, these are there to stop the body from spinning out uncontrollably'
     end
   end
 
