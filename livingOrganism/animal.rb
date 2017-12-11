@@ -9,7 +9,7 @@ class Animal < LivingOrganism
     p 'Animals can breathe, eat, drink, speak and pro-create'
   end
 
-  def breathte
+  def breathe
     p'breathing'
   end
 
@@ -26,7 +26,7 @@ class Animal < LivingOrganism
   end
 
   def procreate
-    p 'humping'
+    p 'sexy time'
   end
 
 end

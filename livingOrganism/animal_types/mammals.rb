@@ -19,8 +19,8 @@ module Mammals
   end
 
   class Quadruped < CommonTraits
-    def legs
-      p 'I have 4 legs cos Im a cat'
+    def self.legs
+      p 'I have 4 legs'
     end
   end
 
@@ -42,8 +42,8 @@ end
 # Mammals::UnusualTraits.exceptions
 # Mammals::People.people
 # Mammals::CommonTraits.feed_young
-geoff = Mammals::Biped.new
-cat = Mammals::Quadruped.new
-geoff.legs
-cat.legs
-cat.feed_young
+# geoff = Mammals::Biped.new
+# cat = Mammals::Quadruped.new
+# geoff.legs
+# cat.legs
+# cat.feed_young
